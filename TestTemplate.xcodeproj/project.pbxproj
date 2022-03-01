@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		F2497BA227CC943200DD42A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2497BA127CC943200DD42A2 /* AppDelegate.swift */; };
 		F2497BA427CC943200DD42A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2497BA327CC943200DD42A2 /* SceneDelegate.swift */; };
-		F2497BA627CC943200DD42A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2497BA527CC943200DD42A2 /* ViewController.swift */; };
+		F2497BA627CC943200DD42A2 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2497BA527CC943200DD42A2 /* UserViewController.swift */; };
 		F2497BA927CC943200DD42A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2497BA727CC943200DD42A2 /* Main.storyboard */; };
 		F2497BAB27CC943400DD42A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2497BAA27CC943400DD42A2 /* Assets.xcassets */; };
 		F2497BAE27CC943400DD42A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2497BAC27CC943400DD42A2 /* LaunchScreen.storyboard */; };
+		F2746F4C27CDD976000DD1A2 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F4B27CDD976000DD1A2 /* UserViewModel.swift */; };
+		F2746F4E27CDDA0E000DD1A2 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F4D27CDDA0E000DD1A2 /* UserResponse.swift */; };
+		F2746F5027CDDA16000DD1A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F4F27CDDA16000DD1A2 /* User.swift */; };
+		F2746F5227CDDAFB000DD1A2 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F5127CDDAFB000DD1A2 /* UserService.swift */; };
+		F2746F5D27CDE0EC000DD1A2 /* MoviesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F5527CDE0EC000DD1A2 /* MoviesEndpoint.swift */; };
+		F2746F5E27CDE0EC000DD1A2 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F5727CDE0EC000DD1A2 /* HTTPMethod.swift */; };
+		F2746F5F27CDE0EC000DD1A2 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F5827CDE0EC000DD1A2 /* HTTPClient.swift */; };
+		F2746F6027CDE0EC000DD1A2 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F5927CDE0EC000DD1A2 /* RequestError.swift */; };
+		F2746F6127CDE0EC000DD1A2 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F5A27CDE0EC000DD1A2 /* Endpoint.swift */; };
+		F2746F6227CDE0EC000DD1A2 /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F5C27CDE0EC000DD1A2 /* MoviesService.swift */; };
+		F2746F6627CDE100000DD1A2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F6427CDE100000DD1A2 /* Movie.swift */; };
+		F2746F6727CDE100000DD1A2 /* TopRated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F6527CDE100000DD1A2 /* TopRated.swift */; };
+		F2746F6A27CDE109000DD1A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2746F6927CDE109000DD1A2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2497B9E27CC943200DD42A2 /* TestTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2497BA127CC943200DD42A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2497BA327CC943200DD42A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2497BA527CC943200DD42A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2497BA527CC943200DD42A2 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		F2497BA827CC943200DD42A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2497BAA27CC943400DD42A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2497BAD27CC943400DD42A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2497BAF27CC943400DD42A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2746F4B27CDD976000DD1A2 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F2746F4D27CDDA0E000DD1A2 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		F2746F4F27CDDA16000DD1A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2746F5127CDDAFB000DD1A2 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F2746F5527CDE0EC000DD1A2 /* MoviesEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesEndpoint.swift; sourceTree = "<group>"; };
+		F2746F5727CDE0EC000DD1A2 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F2746F5827CDE0EC000DD1A2 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		F2746F5927CDE0EC000DD1A2 /* RequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		F2746F5A27CDE0EC000DD1A2 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F2746F5C27CDE0EC000DD1A2 /* MoviesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
+		F2746F6427CDE100000DD1A2 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F2746F6527CDE100000DD1A2 /* TopRated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRated.swift; sourceTree = "<group>"; };
+		F2746F6927CDE109000DD1A2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,132 @@
 		F2497BA027CC943200DD42A2 /* TestTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F2746F6B27CDE14D000DD1A2 /* Screens */,
+				F2746F6327CDE100000DD1A2 /* Models */,
+				F2746F5327CDE0EC000DD1A2 /* Network */,
+				F2746F6827CDE109000DD1A2 /* Controllers */,
 				F2497BA127CC943200DD42A2 /* AppDelegate.swift */,
 				F2497BA327CC943200DD42A2 /* SceneDelegate.swift */,
-				F2497BA527CC943200DD42A2 /* ViewController.swift */,
 				F2497BA727CC943200DD42A2 /* Main.storyboard */,
 				F2497BAA27CC943400DD42A2 /* Assets.xcassets */,
 				F2497BAC27CC943400DD42A2 /* LaunchScreen.storyboard */,
 				F2497BAF27CC943400DD42A2 /* Info.plist */,
 			);
 			path = TestTemplate;
+			sourceTree = "<group>";
+		};
+		F2746F4A27CDD933000DD1A2 /* UserScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F6E27CDE183000DD1A2 /* ViewModel */,
+				F2746F6D27CDE17E000DD1A2 /* View */,
+				F2746F6C27CDE175000DD1A2 /* Model */,
+			);
+			path = UserScreen;
+			sourceTree = "<group>";
+		};
+		F2746F5327CDE0EC000DD1A2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F5427CDE0EC000DD1A2 /* Endpoints */,
+				F2746F5627CDE0EC000DD1A2 /* Base */,
+				F2746F5B27CDE0EC000DD1A2 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F2746F5427CDE0EC000DD1A2 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F5527CDE0EC000DD1A2 /* MoviesEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		F2746F5627CDE0EC000DD1A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F5727CDE0EC000DD1A2 /* HTTPMethod.swift */,
+				F2746F5827CDE0EC000DD1A2 /* HTTPClient.swift */,
+				F2746F5927CDE0EC000DD1A2 /* RequestError.swift */,
+				F2746F5A27CDE0EC000DD1A2 /* Endpoint.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F2746F5B27CDE0EC000DD1A2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F5127CDDAFB000DD1A2 /* UserService.swift */,
+				F2746F5C27CDE0EC000DD1A2 /* MoviesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F2746F6327CDE100000DD1A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F6427CDE100000DD1A2 /* Movie.swift */,
+				F2746F6527CDE100000DD1A2 /* TopRated.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2746F6827CDE109000DD1A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F6927CDE109000DD1A2 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2746F6B27CDE14D000DD1A2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F4A27CDD933000DD1A2 /* UserScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F2746F6C27CDE175000DD1A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F4F27CDDA16000DD1A2 /* User.swift */,
+				F2746F4D27CDDA0E000DD1A2 /* UserResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2746F6D27CDE17E000DD1A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F6F27CDE1A5000DD1A2 /* Table */,
+				F2497BA527CC943200DD42A2 /* UserViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2746F6E27CDE183000DD1A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F4B27CDD976000DD1A2 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2746F6F27CDE1A5000DD1A2 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				F2746F7027CDE1AF000DD1A2 /* Cell */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		F2746F7027CDE1AF000DD1A2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +281,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2497BA627CC943200DD42A2 /* ViewController.swift in Sources */,
+				F2746F6627CDE100000DD1A2 /* Movie.swift in Sources */,
+				F2746F5227CDDAFB000DD1A2 /* UserService.swift in Sources */,
+				F2746F4E27CDDA0E000DD1A2 /* UserResponse.swift in Sources */,
+				F2497BA627CC943200DD42A2 /* UserViewController.swift in Sources */,
+				F2746F6027CDE0EC000DD1A2 /* RequestError.swift in Sources */,
+				F2746F5D27CDE0EC000DD1A2 /* MoviesEndpoint.swift in Sources */,
+				F2746F5027CDDA16000DD1A2 /* User.swift in Sources */,
+				F2746F6A27CDE109000DD1A2 /* MainViewController.swift in Sources */,
+				F2746F5E27CDE0EC000DD1A2 /* HTTPMethod.swift in Sources */,
+				F2746F6727CDE100000DD1A2 /* TopRated.swift in Sources */,
+				F2746F5F27CDE0EC000DD1A2 /* HTTPClient.swift in Sources */,
+				F2746F4C27CDD976000DD1A2 /* UserViewModel.swift in Sources */,
 				F2497BA227CC943200DD42A2 /* AppDelegate.swift in Sources */,
+				F2746F6227CDE0EC000DD1A2 /* MoviesService.swift in Sources */,
+				F2746F6127CDE0EC000DD1A2 /* Endpoint.swift in Sources */,
 				F2497BA427CC943200DD42A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

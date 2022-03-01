@@ -1,0 +1,1825 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UserService",
+      "printedName": "UserService",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "fetchUser",
+          "printedName": "fetchUser(completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<TestTemplate.User, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<TestTemplate.User, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "TestTemplate.User",
+                      "usr": "s:12TestTemplate4UserV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12TestTemplate11UserServiceP05fetchC010completionyys6ResultOyAA0C0Vs5Error_pGc_tF",
+          "mangledName": "$s12TestTemplate11UserServiceP05fetchC010completionyys6ResultOyAA0C0Vs5Error_pGc_tF",
+          "moduleName": "TestTemplate",
+          "genericSig": "<τ_0_0 where τ_0_0 : TestTemplate.UserService>",
+          "sugared_genericSig": "<Self where Self : TestTemplate.UserService>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:12TestTemplate11UserServiceP",
+      "mangledName": "$s12TestTemplate11UserServiceP",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "APIManager",
+      "printedName": "APIManager",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "fetchUser",
+          "printedName": "fetchUser(completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<TestTemplate.User, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<TestTemplate.User, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "TestTemplate.User",
+                      "usr": "s:12TestTemplate4UserV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12TestTemplate10APIManagerC9fetchUser10completionyys6ResultOyAA0E0Vs5Error_pGc_tF",
+          "mangledName": "$s12TestTemplate10APIManagerC9fetchUser10completionyys6ResultOyAA0E0Vs5Error_pGc_tF",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "APIManager",
+              "printedName": "TestTemplate.APIManager",
+              "usr": "s:12TestTemplate10APIManagerC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12TestTemplate10APIManagerCACycfc",
+          "mangledName": "$s12TestTemplate10APIManagerCACycfc",
+          "moduleName": "TestTemplate",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:12TestTemplate10APIManagerC",
+      "mangledName": "$s12TestTemplate10APIManagerC",
+      "moduleName": "TestTemplate",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "UserService",
+          "printedName": "UserService",
+          "usr": "s:12TestTemplate11UserServiceP",
+          "mangledName": "$s12TestTemplate11UserServiceP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UserResponse",
+      "printedName": "UserResponse",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "data",
+          "printedName": "data",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "TestTemplate.User",
+              "usr": "s:12TestTemplate4UserV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate12UserResponseV4dataAA0C0Vvp",
+          "mangledName": "$s12TestTemplate12UserResponseV4dataAA0C0Vvp",
+          "moduleName": "TestTemplate",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "User",
+                  "printedName": "TestTemplate.User",
+                  "usr": "s:12TestTemplate4UserV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12TestTemplate12UserResponseV4dataAA0C0Vvg",
+              "mangledName": "$s12TestTemplate12UserResponseV4dataAA0C0Vvg",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserResponse",
+              "printedName": "TestTemplate.UserResponse",
+              "usr": "s:12TestTemplate12UserResponseV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "TestTemplate.User",
+              "usr": "s:12TestTemplate4UserV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12TestTemplate12UserResponseV4dataAcA0C0V_tcfc",
+          "mangledName": "$s12TestTemplate12UserResponseV4dataAcA0C0V_tcfc",
+          "moduleName": "TestTemplate",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserResponse",
+              "printedName": "TestTemplate.UserResponse",
+              "usr": "s:12TestTemplate12UserResponseV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12TestTemplate12UserResponseV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s12TestTemplate12UserResponseV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "TestTemplate",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:12TestTemplate12UserResponseV",
+      "mangledName": "$s12TestTemplate12UserResponseV",
+      "moduleName": "TestTemplate",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UserViewController",
+      "printedName": "UserViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "imageView",
+          "printedName": "imageView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIImageView",
+              "printedName": "UIKit.UIImageView",
+              "usr": "c:objc(cs)UIImageView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate18UserViewControllerC05imageD033_1B26EC96C40E7C7D950FECD4A6CEF226LLSo07UIImageD0Cvp",
+          "mangledName": "$s12TestTemplate18UserViewControllerC05imageD033_1B26EC96C40E7C7D950FECD4A6CEF226LLSo07UIImageD0Cvp",
+          "moduleName": "TestTemplate",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "emailLabel",
+          "printedName": "emailLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UILabel",
+              "printedName": "UIKit.UILabel",
+              "usr": "c:objc(cs)UILabel"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate18UserViewControllerC10emailLabel33_1B26EC96C40E7C7D950FECD4A6CEF226LLSo7UILabelCvp",
+          "mangledName": "$s12TestTemplate18UserViewControllerC10emailLabel33_1B26EC96C40E7C7D950FECD4A6CEF226LLSo7UILabelCvp",
+          "moduleName": "TestTemplate",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "viewModel",
+          "printedName": "viewModel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserViewModel",
+              "printedName": "TestTemplate.UserViewModel",
+              "usr": "s:12TestTemplate13UserViewModelC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate18UserViewControllerC9viewModel33_1B26EC96C40E7C7D950FECD4A6CEF226LLAA0cdG0Cvp",
+          "mangledName": "$s12TestTemplate18UserViewControllerC9viewModel33_1B26EC96C40E7C7D950FECD4A6CEF226LLAA0cdG0Cvp",
+          "moduleName": "TestTemplate",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(viewModel:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserViewController",
+              "printedName": "TestTemplate.UserViewController",
+              "usr": "c:@M@TestTemplate@objc(cs)UserViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UserViewModel",
+              "printedName": "TestTemplate.UserViewModel",
+              "usr": "s:12TestTemplate13UserViewModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12TestTemplate18UserViewControllerC9viewModelAcA0cdG0C_tcfc",
+          "mangledName": "$s12TestTemplate18UserViewControllerC9viewModelAcA0cdG0C_tcfc",
+          "moduleName": "TestTemplate",
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "TestTemplate.UserViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UserViewController",
+                  "printedName": "TestTemplate.UserViewController",
+                  "usr": "c:@M@TestTemplate@objc(cs)UserViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@TestTemplate@objc(cs)UserViewController(im)initWithCoder:",
+          "mangledName": "$s12TestTemplate18UserViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "TestTemplate",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@TestTemplate@objc(cs)UserViewController(im)viewDidLoad",
+          "mangledName": "$s12TestTemplate18UserViewControllerC11viewDidLoadyyF",
+          "moduleName": "TestTemplate",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "updateView",
+          "printedName": "updateView(imageUrl:email:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12TestTemplate18UserViewControllerC06updateD08imageUrl5emailySS_SStF",
+          "mangledName": "$s12TestTemplate18UserViewControllerC06updateD08imageUrl5emailySS_SStF",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserViewController",
+              "printedName": "TestTemplate.UserViewController",
+              "usr": "c:@M@TestTemplate@objc(cs)UserViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@TestTemplate@objc(cs)UserViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s12TestTemplate18UserViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "TestTemplate",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@TestTemplate@objc(cs)UserViewController",
+      "mangledName": "$s12TestTemplate18UserViewControllerC",
+      "moduleName": "TestTemplate",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "UserViewModelOutput",
+          "printedName": "UserViewModelOutput",
+          "usr": "s:12TestTemplate19UserViewModelOutputP",
+          "mangledName": "$s12TestTemplate19UserViewModelOutputP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "User",
+      "printedName": "User",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate4UserV2idSivp",
+          "mangledName": "$s12TestTemplate4UserV2idSivp",
+          "moduleName": "TestTemplate",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12TestTemplate4UserV2idSivg",
+              "mangledName": "$s12TestTemplate4UserV2idSivg",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "email",
+          "printedName": "email",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate4UserV5emailSSvp",
+          "mangledName": "$s12TestTemplate4UserV5emailSSvp",
+          "moduleName": "TestTemplate",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12TestTemplate4UserV5emailSSvg",
+              "mangledName": "$s12TestTemplate4UserV5emailSSvg",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "avatar",
+          "printedName": "avatar",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate4UserV6avatarSSvp",
+          "mangledName": "$s12TestTemplate4UserV6avatarSSvp",
+          "moduleName": "TestTemplate",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12TestTemplate4UserV6avatarSSvg",
+              "mangledName": "$s12TestTemplate4UserV6avatarSSvg",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "TestTemplate.User",
+              "usr": "s:12TestTemplate4UserV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12TestTemplate4UserV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s12TestTemplate4UserV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "TestTemplate",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(id:email:avatar:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "TestTemplate.User",
+              "usr": "s:12TestTemplate4UserV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12TestTemplate4UserV2id5email6avatarACSi_S2Stcfc",
+          "mangledName": "$s12TestTemplate4UserV2id5email6avatarACSi_S2Stcfc",
+          "moduleName": "TestTemplate",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:12TestTemplate4UserV",
+      "mangledName": "$s12TestTemplate4UserV",
+      "moduleName": "TestTemplate",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UserViewModelOutput",
+      "printedName": "UserViewModelOutput",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "updateView",
+          "printedName": "updateView(imageUrl:email:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12TestTemplate19UserViewModelOutputP06updateD08imageUrl5emailySS_SStF",
+          "mangledName": "$s12TestTemplate19UserViewModelOutputP06updateD08imageUrl5emailySS_SStF",
+          "moduleName": "TestTemplate",
+          "genericSig": "<τ_0_0 where τ_0_0 : TestTemplate.UserViewModelOutput>",
+          "sugared_genericSig": "<Self where Self : TestTemplate.UserViewModelOutput>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:12TestTemplate19UserViewModelOutputP",
+      "mangledName": "$s12TestTemplate19UserViewModelOutputP",
+      "moduleName": "TestTemplate",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UserViewModel",
+      "printedName": "UserViewModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "output",
+          "printedName": "output",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "TestTemplate.UserViewModelOutput?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate13UserViewModelC6outputAA0cdE6Output_pSgvp",
+          "mangledName": "$s12TestTemplate13UserViewModelC6outputAA0cdE6Output_pSgvp",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "ReferenceOwnership",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "TestTemplate.UserViewModelOutput?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UserViewModelOutput",
+                      "printedName": "TestTemplate.UserViewModelOutput",
+                      "usr": "s:12TestTemplate19UserViewModelOutputP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12TestTemplate13UserViewModelC6outputAA0cdE6Output_pSgvg",
+              "mangledName": "$s12TestTemplate13UserViewModelC6outputAA0cdE6Output_pSgvg",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "TestTemplate.UserViewModelOutput?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UserViewModelOutput",
+                      "printedName": "TestTemplate.UserViewModelOutput",
+                      "usr": "s:12TestTemplate19UserViewModelOutputP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12TestTemplate13UserViewModelC6outputAA0cdE6Output_pSgvs",
+              "mangledName": "$s12TestTemplate13UserViewModelC6outputAA0cdE6Output_pSgvs",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12TestTemplate13UserViewModelC6outputAA0cdE6Output_pSgvM",
+              "mangledName": "$s12TestTemplate13UserViewModelC6outputAA0cdE6Output_pSgvM",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "userService",
+          "printedName": "userService",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserService",
+              "printedName": "TestTemplate.UserService",
+              "usr": "s:12TestTemplate11UserServiceP"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12TestTemplate13UserViewModelC11userService33_DAA53CAA78DF86CED1FD48503928D30BLLAA0cG0_pvp",
+          "mangledName": "$s12TestTemplate13UserViewModelC11userService33_DAA53CAA78DF86CED1FD48503928D30BLLAA0cG0_pvp",
+          "moduleName": "TestTemplate",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(userService:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserViewModel",
+              "printedName": "TestTemplate.UserViewModel",
+              "usr": "s:12TestTemplate13UserViewModelC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UserService",
+              "printedName": "TestTemplate.UserService",
+              "usr": "s:12TestTemplate11UserServiceP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12TestTemplate13UserViewModelC11userServiceAcA0cG0_p_tcfc",
+          "mangledName": "$s12TestTemplate13UserViewModelC11userServiceAcA0cG0_p_tcfc",
+          "moduleName": "TestTemplate",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "fetchUser",
+          "printedName": "fetchUser()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12TestTemplate13UserViewModelC05fetchC0yyF",
+          "mangledName": "$s12TestTemplate13UserViewModelC05fetchC0yyF",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:12TestTemplate13UserViewModelC",
+      "mangledName": "$s12TestTemplate13UserViewModelC",
+      "moduleName": "TestTemplate",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@TestTemplate@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s12TestTemplate11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0k6LaunchJ3KeyaypGSgtF",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:configurationForConnecting:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneConfiguration",
+              "printedName": "UIKit.UISceneConfiguration",
+              "usr": "c:objc(cs)UISceneConfiguration"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@TestTemplate@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:",
+          "mangledName": "$s12TestTemplate11AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0J7SessionCSo0J17ConnectionOptionsCtF",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "objc_name": "application:configurationForConnectingSceneSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didDiscardSceneSessions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<UIKit.UISceneSession>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UISceneSession",
+                  "printedName": "UIKit.UISceneSession",
+                  "usr": "c:objc(cs)UISceneSession"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@TestTemplate@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:",
+          "mangledName": "$s12TestTemplate11AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtF",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "objc_name": "application:didDiscardSceneSessions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "TestTemplate.AppDelegate",
+              "usr": "c:@M@TestTemplate@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@TestTemplate@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s12TestTemplate11AppDelegateCACycfc",
+          "moduleName": "TestTemplate",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12TestTemplate11AppDelegateC5$mainyyFZ",
+          "mangledName": "$s12TestTemplate11AppDelegateC5$mainyyFZ",
+          "moduleName": "TestTemplate",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@TestTemplate@objc(cs)AppDelegate",
+      "mangledName": "$s12TestTemplate11AppDelegateC",
+      "moduleName": "TestTemplate",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "MainType",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TestTemplate"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SceneDelegate",
+      "printedName": "SceneDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "window",
+          "printedName": "window",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@TestTemplate@objc(cs)SceneDelegate(py)window",
+          "mangledName": "$s12TestTemplate13SceneDelegateC6windowSo8UIWindowCSgvp",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "objc_name": "window",
+          "declAttributes": [
+            "HasInitialValue",
+            "ObjC",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@TestTemplate@objc(cs)SceneDelegate(im)window",
+              "mangledName": "$s12TestTemplate13SceneDelegateC6windowSo8UIWindowCSgvg",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "window",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@TestTemplate@objc(cs)SceneDelegate(im)setWindow:",
+              "mangledName": "$s12TestTemplate13SceneDelegateC6windowSo8UIWindowCSgvs",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setWindow:",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12TestTemplate13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "mangledName": "$s12TestTemplate13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "moduleName": "TestTemplate",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "scene",
+          "printedName": "scene(_:willConnectTo:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@TestTemplate@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:",
+          "mangledName": "$s12TestTemplate13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0J7SessionCSo0J17ConnectionOptionsCtF",
+          "moduleName": "TestTemplate",
+          "isOpen": true,
+          "objc_name": "scene:willConnectToSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SceneDelegate",
+              "printedName": "TestTemplate.SceneDelegate",
+              "usr": "c:@M@TestTemplate@objc(cs)SceneDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@TestTemplate@objc(cs)SceneDelegate(im)init",
+          "mangledName": "$s12TestTemplate13SceneDelegateCACycfc",
+          "moduleName": "TestTemplate",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@TestTemplate@objc(cs)SceneDelegate",
+      "mangledName": "$s12TestTemplate13SceneDelegateC",
+      "moduleName": "TestTemplate",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

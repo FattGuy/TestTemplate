@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1646109582, 723870992]
+build_end_time: [1646109583, 629456996]
+inputs:
+  "/Users/fengchang/Documents/GitHub/TestTemplate/TestTemplate/AppDelegate.swift": [1646109582, 468517303]
+  "/Users/fengchang/Documents/GitHub/TestTemplate/TestTemplate/SceneDelegate.swift": [1646109582, 454452991]
+  "/Users/fengchang/Documents/GitHub/TestTemplate/TestTemplate/UserScreen/User.swift": [1646109582, 428349018]
+  "/Users/fengchang/Documents/GitHub/TestTemplate/TestTemplate/UserScreen/UserResponse.swift": [1646109582, 413750648]
+  "/Users/fengchang/Documents/GitHub/TestTemplate/TestTemplate/UserScreen/UserService.swift": [1646109582, 391405582]
+  "/Users/fengchang/Documents/GitHub/TestTemplate/TestTemplate/UserScreen/UserViewController.swift": [1646109213, 689771175]
+  "/Users/fengchang/Documents/GitHub/TestTemplate/TestTemplate/UserScreen/UserViewModel.swift": [1646109582, 443119525]
